@@ -47,9 +47,15 @@ const handleInput = () => {
 };
 </script>
 
-<style scoped>
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
+body {
+ background-image: url(/src/assets/bg.jpeg); 
+  background: cover;
+background-size: cover;
+background-repeat: no-repeat;
+}
 #background {
   position: fixed;
   top: 0;
